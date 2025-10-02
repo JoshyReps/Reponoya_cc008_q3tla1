@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+        <link rel="stylesheet" href="public/form.css">
+    </head>
+
+    <body>
+
+        <div id="main-container">
+
+            <h1>Register</h1>
+
+            <form action="output.html" id="myForm">
+
+                <div class="name-con con">
+                    <label class="label" for="firstName">First Name</label>
+                    <input type="text" name="firstName" class="text-input">
+                </div>
+
+                <div class="name-con con">
+                    <label class="label" for="lastName">Last Name</label>
+                    <input type="text" name="lastName" class="text-input">
+                </div>
+
+                <div class="name-con con">
+                    <label class="label" for="middleName">Middle Name</label>
+                    <input type="text" name="middleName" class="text-input">
+                </div>
+
+                <div class="image-con con">
+                    <label class="label" for="photo">Your Photo</label>
+                    <input type="file" name="photo" accept="image/png" class="text-input">
+                </div>
+
+                <div class="date-con con">
+                    <label class="label" for="date">Date of Birth</label>
+                    <input type="date" name="date" class="text-input">
+                </div>
+
+                <div class="sex-con con">
+                    <label class="label" for="date">Sex: </label>
+                    <label class="label" for="sex">Male</label>
+                    <input type="radio" name="sex" value="Male">
+                    <label class="label" for="sex">Female</label>
+                    <input type="radio" name="sex" value="Female">
+                </div>
+
+                <div class="civil-con con">
+                    <label class="label" for="civil">Civil Status : </label>
+                    <select name="civil" class="text-input">
+                        <option value="single">Single</option>
+                        <option value="married">Married</option>
+                        <option value="divorced">Divorced</option>
+                    </select>
+                </div>
+
+                <div class="nationality-con con">
+                    <label class="label" for="nationality">Nationality</label>
+                    <input type="text" name="nationality" maxlength="64">
+                </div>
+
+                <div class="religion-con con">
+                    <label class="label" for="religion">Religion</label>
+                    <input type="text" name="religion" maxlength="64" class="text-input">
+                </div>
+
+                <div class="contact-con con">
+                    <label class="label" class="label" for="contactnumber">Contact Number</label>
+                    <input type="number" name="contact" class="text-input">
+                </div>
+
+                <div class="email-con con">
+                    <label class="label" for="email">Email</label>
+                    <input type="email" name="email" class="text-input">
+                </div>
+
+                <div class="home-address-con con">
+                    <label class="label" for="address">Home Address</label>
+                    <textarea id="address" name="address" class="text-input"></textarea>
+                </div>
+
+
+                <div class="emergency-con con">
+                    <label class="label" for="emergencynumber">Emergency Number</label>
+                    <input type="number" name="emergency" class="text-input">
+                </div>
+
+
+                <div class="username-con con">
+                    <label class="label" for="username">Username</label>
+                    <input type="text" name="username" maxlength="64" class="text-input">
+                </div>
+
+
+                <div class="password-con con">
+                    <label class="label" for="password">Password</label>
+                    <input type="password" name="password" maxlength="64" class="text-input">
+                </div>
+
+                <div class="password-con con">
+                    <label class="label" for="confirm-password">Confirm Password</label>
+                    <input type="password" name="confirm" maxlength="64" class="text-input">
+                </div>
+
+                <div class="button-con">
+                    <input type="submit" id="submit-btn">
+                </div>
+
+            </form>
+
+        </div>
+        
+    </body>
+
+</html>
